@@ -11,7 +11,50 @@ html, body {
     color: #8B4789;
 }
 
-a {
+.container {
+    min-height: 100%;
+}
+
+.secondary_container {
+    min-height: 100%;
+    background-color: #8B4789;
+    color: #F7C267;
+    margin: 0px;
+    width: 100%;
+}
+
+.image_container_sky {
+    background-image: url(../img/sky.jpg);
+    background-size: cover;
+    margin: 0px;
+    width: 100%;
+}
+
+.image_container_neon {
+    color: #F7C267;
+    background-image: url(../img/neon.jpg);
+    background-size: cover;
+    margin: 0px;
+    width: 100%;
+}
+
+nav {
+    /*display: block;*/
+    padding-top: 10px;
+}
+
+nav p {
+    font-size: 20px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+nav a {
+    font-size: 20px;
+}
+
+a, a:visited {
     color: #8B4789;
 }
 
