@@ -20,3 +20,15 @@ a:hover {
     background-color: #8B4789;
     font-weight: bold;
 }
+
+.image_with_caption {
+    position: relative;
+}
+
+.image_with_caption .caption {
+    position: absolute;
+    padding: 10px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
