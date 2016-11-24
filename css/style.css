@@ -1,5 +1,22 @@
 /* CUSTOM CSS */
 
+@font-face {
+    font-family: vcr;
+    src: url(../fonts/VCR_OSD_MONO.ttf);
+}
+
 html, body {
-    background-color: #ffffff;
+    background-color: #F7C267;
+    font-family: vcr;
+    color: #8B4789;
+}
+
+a {
+    color: #8B4789;
+}
+
+a:hover {
+    color: #F7C267;
+    background-color: #8B4789;
+    font-weight: bold;
 }
