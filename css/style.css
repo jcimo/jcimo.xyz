@@ -1,82 +1,17 @@
 /* CUSTOM CSS */
 
-@font-face {
-    font-family: vcr;
-    src: url(../fonts/VCR_OSD_MONO.ttf);
+html, body {
+    background-color: #FFFFFF;
+    color: #222222;
+    font-family: 'Roboto Black', sans-serif;
 }
 
-html, body {
-    background-color: #EEEEEE;
-    font-family: vcr;
-    color: #8B4789;
+a {
+    color: inherit;
+    text-decoration: inherit;
 }
 
 .container {
-    min-height: 100%;
-}
-
-.image_container_sky {
-    background-image: url(../img/sky.jpg);
-    background-size: cover;
-    margin: 0px;
-    width: 100%;
-}
-
-.image_container_neon {
-    color: #F7C267;
-    background-image: url(../img/neon.jpg);
-    background-size: cover;
-    margin: 0px;
-    width: 100%;
-}
-
-nav {
-    /*display: block;*/
-    padding-top: 10px;
-}
-
-nav p {
-    font-size: 20px;
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
-}
-
-nav a {
-    font-size: 20px;
-}
-
-a, a:visited {
-    color: #8B4789;
-}
-
-a:hover {
-    color: #F7C267;
-    background-color: #8B4789;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.default_background {
-    background-color: #F7C267;
-}
-
-.image_with_caption {
-    position: relative;
-}
-
-.image_with_caption .caption {
-    position: absolute;
-    padding: 10px;
-    z-index: 1;
-    top: 0;
-    left: 0;
-}
-
-.secondary_container {
-    min-height: 100%;
-    background-color: #FFFFFF;
-    color: #F7C267;
-    margin: 0px;
-    width: 100%;
+    padding-top: 50px;
+    text-align: center;
 }
