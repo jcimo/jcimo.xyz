@@ -1,8 +1,7 @@
 # [jcimo.xyz](http://jcimo.xyz)
-###### Also forwards from [jcimo.com](http://jcimo.com)
+###### Personal Website
 ---
-Website is hosted using GoDaddy Linux server with cPanel.
+View online at [jcimo.xyz](http://jcimo.xyz).
 
 ###### Libraries Used:
-- [Bootstrap](http://getbootstrap.com)
-- [jQuery](https://jquery.com/)
+- N/A
