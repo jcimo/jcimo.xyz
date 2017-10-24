@@ -7,4 +7,4 @@ ErrorDocument 508 https://jcimo.xyz/404.html
 
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
-RewriteRule .* https://example.com/%{REQUEST_URI} [R,L]
+RewriteRule .* https://jcimo.xyz/%{REQUEST_URI} [R,L]
