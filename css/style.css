@@ -17,9 +17,12 @@ MADE by JERRY CIMO
 */
 
 html, body {
-    background-color: #FFFFFF;
-    color: #222222;
+    background: #EEEEEE;
+    color: #000000;
     font-family: 'Roboto Black', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    margin: 0px;
 }
 
 a {
@@ -27,7 +30,86 @@ a {
     text-decoration: inherit;
 }
 
+a:hover {
+    font-weight: bold;
+}
+
 .container {
+    background: ;
     padding-top: 50px;
-    text-align: center;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 25px;
+    float: top;
+    margin: 0px;
+}
+
+.subheader {
+    width: 100%;
+    height: 25px;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.www { font-weight: lighter; }
+
+.logo { float: left; }
+.link-a { float: right; }
+.role { float: left; }
+.link-b { float: right; }
+
+.border-a {
+    background: #000000;
+    height: 10px;
+    width: 100%;
+}
+
+.border-b {
+    background: #000000;
+    height: 1px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.border-c {
+    height: 100px;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+
+    background: rgb(255,89,0); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,89,0,1) 1%, rgba(114,0,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,89,0,1) 1%,rgba(114,0,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,89,0,1) 1%,rgba(114,0,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5900', endColorstr='#7200ff',GradientType=0 ); /* IE6-9 */
+}
+
+.body { margin-top: 5px; }
+
+.side-br {
+    float: right;
+    font-size: 15px;
+    padding-right: 19px;
+    font-weight: lighter;
+    transform: rotate(-90deg);
+	transform-origin: right bottom 0;
+}
+
+.lbar {
+    background: #ffffff;
+    color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+
+.footer {
+    padding-top: 50px;
+    font-size: 10px;
 }
