@@ -4,4 +4,4 @@
 View online at [jcimo.xyz](http://jcimo.xyz).
 
 ###### Libraries Used:
-- N/A
+- [Font Awesome](http://fontawesome.io)
