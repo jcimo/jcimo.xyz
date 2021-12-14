@@ -63,6 +63,7 @@ a:hover {
 .logo { float: left; }
 .link-a { float: right; }
 .role { float: left; }
+.subrole { float: right; }
 .link-b { float: right; }
 
 .border-a {
