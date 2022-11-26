@@ -37,9 +37,9 @@ a:hover {
 .container {
     background: ;
     padding-top: 50px;
-    padding-left: 25px;
-    padding-right: 25px;
-    max-width: 550px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -80,7 +80,7 @@ a:hover {
 }
 
 .border-c {
-    height: 200px;
+    height: 180px;
     width: 100%;
     border-style: solid;
     border-width: 1px;
@@ -93,7 +93,24 @@ a:hover {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5900', endColorstr='#7200ff',GradientType=0 ); /* IE6-9 */
 }
 
-.body { margin-top: 5px; }
+.body {
+    margin-top: 10px; }
+
+.b-main {
+    height: 24px;
+}
+
+.b-main-head {
+    float: left;
+}
+
+.b-main-date {
+    float: right;
+}
+
+.b-break {
+    height: 16px;
+}
 
 .lbar {
     font-family: 'Roboto Black', sans-serif;
